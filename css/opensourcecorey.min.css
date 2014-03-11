@@ -1,0 +1,21 @@
+/*
+This file has been generated with SiteFlow (http://siteflow.witiz.com).
+To remove this comment, please support us and upgrade to SiteFlow Pro.
+*/
+body{padding-top:60px}
+h1,h2,h3,h4,h5{font-family:'Raleway',sans-serif;text-transform:lowercase}
+.menu{border-bottom:none;height:60px}.menu.navbar-inverse{background-color:#333}
+.menu .navbar-brand{font-family:'Raleway',sans-serif;font-weight:300;font-size:32px;line-height:36px;text-transform:uppercase}.menu .navbar-brand .open{color:#b5c8d7}
+.menu .navbar-brand .source{color:#29a9e1}
+.menu .navbar-brand .corey{color:#df4b38;padding-left:.25em}
+.menu .navbar-nav>li>a{padding:10px 15px;opacity:.8;width:60px;height:60px}
+.menu .navbar-nav>li.menu-skills{background-color:#fdc636}
+.menu .navbar-nav>li.menu-work{background-color:#87d3e3}
+.menu .navbar-nav>li.menu-awards{background-color:#f48aba}
+.menu .navbar-nav>li.menu-resume{background-color:#bdd332}
+.menu .navbar-nav>li.menu-contact{background-color:#f26b31}
+.header{background-color:#ccc9c2;background-image:url('../img/header-bg.png');background-repeat:repeat-x;background-position:bottom;background-size:contain;max-height:600px}
+.interlude{background-attachment:fixed;background-position:bottom center;height:300px;background-size:cover}.interlude.coffee{background-image:url('../img/interlude-bg-coffee.jpg')}
+footer.contact{padding-bottom:40px;background-color:#ccc9c2}footer.contact h1{text-align:center;margin-bottom:20px}
+footer.contact label{display:none}
+footer.contact input,footer.contact textarea{border:none;border-radius:2px}
