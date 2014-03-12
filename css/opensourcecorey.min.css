@@ -14,7 +14,9 @@ h1,h2,h3,h4,h5{font-family:'Raleway',sans-serif;text-transform:lowercase}
 .menu .navbar-nav>li.menu-awards{background-color:#f48aba}
 .menu .navbar-nav>li.menu-resume{background-color:#bdd332}
 .menu .navbar-nav>li.menu-contact{background-color:#f26b31}
-.header{background-color:#ccc9c2;background-image:url('../img/header-bg.png');background-repeat:repeat-x;background-position:bottom;background-size:contain;max-height:600px}
+.header{background-color:#ccc9c2;background-image:url('../img/header-bg.png');background-repeat:repeat-x;background-position:bottom;background-size:contain}.header .brag{font-family:'Raleway',sans-serif;text-align:center;font-weight:100;font-size:48px}
+.header,.header .desk,.header .avatar{height:250px}@media (min-width:768px){.header,.header .desk,.header .avatar{height:350px}}@media (min-width:768px) and (min-width:992px){.header,.header .desk,.header .avatar{height:450px}}@media (min-width:768px) and (min-width:1200px){.header,.header .desk,.header .avatar{height:600px}}
+.work .thumbnail,.work .thumbnail:hover,.work .thumbnail:active,.work .thumbnail:focus{border:none}
 .interlude{background-attachment:fixed;background-position:bottom center;height:300px;background-size:cover}.interlude.coffee{background-image:url('../img/interlude-bg-coffee.jpg')}
 footer.contact{padding-bottom:40px;background-color:#ccc9c2}footer.contact h1{text-align:center;margin-bottom:20px}
 footer.contact label{display:none}

@@ -7,7 +7,7 @@
     <title>Open Source Corey</title>
     <link href="css/bootstrap.min.css?v=3.1.1" rel="stylesheet">
     <link href="css/jasny-bootstrap.min.css?v=3.1.0" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,700,100" rel="stylesheet">
     <link href="css/opensourcecorey.min.css?v=0.0.1" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -22,7 +22,13 @@
 
     <div class="navbar-header">
       <a class="navbar-brand" href="/">
-        <span class="open">Open</span><span class="source">Source</span><span class="corey">Corey</span>
+        <span class="open">
+          O<span class="hidden-xs">pen</span>
+        </span>
+        <span class="source">
+          S<span class="hidden-xs">ource</span>
+        </span>
+        <span class="corey">Corey</span>
       </a>
 
       <button type="button" class="navbar-toggle pull-right" data-toggle="offcanvas" data-target="#menu-offcanvas" data-canvas="body">
@@ -54,16 +60,19 @@
 
   <header class="header row">
 
-  <div class="container">
 
-    <div class="col-xs-9">
-      <img src="img/header-desk.png" class="desk img-responsive">
+
+    <div class="col-xs-5">
+      <img src="img/header-desk.png" class="desk">
     </div>
-    <div class="col-xs-3">
-      <img src="img/header-avatar.png" class="avatar img-responsive pull-right">
+    <div class="col-xs-5">
+      <h1 class="brag">I get kewl digital stuff done...</h1>
+    </div>
+    <div class="col-xs-2">
+      <img src="img/header-avatar.png" class="avatar pull-right">
     </div>
 
-    </div>
+
   
   </header>
 
@@ -74,10 +83,48 @@
 
     <div class="container">
 
-      <div class="col-xs-6 col-sm-4 col-md-3">
+    <div class="row">
+
+      <div class="col-xs-6 col-sm-4 col-md-4">
         <a href="#" class="thumbnail">
-          <img src="" alt="">
+          <img src="img/work-browser-blank-thumb.png" alt="">
         </a>
+      </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/work-browser-blank-thumb.png" alt="">
+        </a>
+      </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/work-browser-blank-thumb.png" alt="">
+        </a>
+      </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/work-browser-blank-thumb.png" alt="">
+        </a>
+      </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/work-browser-blank-thumb.png" alt="">
+        </a>
+      </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4">
+        <a href="#" class="thumbnail">
+          <img src="img/work-browser-blank-thumb.png" alt="">
+        </a>
+      </div>
+
+
+
+
+
       </div>
 
     </div>
@@ -90,7 +137,8 @@
 
   <footer class="contact row">
 
-  <form class="container">
+  <form class="container" action="http://getsimpleform.com/messages?form_api_token=1f01125274167033ab6378d560261c8b" method="post" role="form">
+  <input type="hidden" name="redirect_to" value="http://opensourcecorey.com/#thanks">
 
 
   <h1>Digital? Let's get it done together!</h1>
@@ -100,7 +148,7 @@
 
       <div class="form-group">
         <label for="input-name">Name</label>
-        <input type="text" class="form-control" id="input-name" placeholder="Name">
+        <input type="text" class="form-control" id="input-name" placeholder="Name" required>
       </div>
 
     </div>
@@ -109,7 +157,7 @@
 
       <div class="form-group">
         <label for="input-email">Email</label>
-        <input type="email" class="form-control" id="input-email" placeholder="Email">
+        <input type="email" class="form-control" id="input-email" placeholder="Email" required>
       </div>
 
     </div>
@@ -118,7 +166,7 @@
 
        <div class="form-group">
         <label for="input-message">Message</label>
-        <textarea class="form-control" rows="3" id="input-message" placeholder="Message"></textarea>
+        <textarea class="form-control" rows="3" id="input-message" placeholder="Message" required></textarea>
       </div>
 
     
@@ -139,5 +187,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js?v=3.1.1"></script>
     <script src="js/jasny-bootstrap.min.js?v=3.1.0"></script>
+    <script src="js/opensourcecorey.min.js?v=0.0.1"></script>
   </body>
 </html>
